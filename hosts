@@ -1,0 +1,52 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+# redirecting this is just a bad idea 127.0.0.1       localhost
+192.168.0.87	bilal.ammiza.relisystems.com
+192.168.0.87	rizwan.ammiza.relisystems.com
+
+127.0.0.1 app.nextgenerp.com
+127.0.0.1 api.nextgenerp.com	
+127.0.0.1       app.nextgenerp.dev
+127.0.0.1       api.nextgenerp.dev
+127.0.0.1       jobberbase.local
+192.168.0.39     app.nextgenerp.sqa
+192.168.0.39     api.nextgenerp.sqa
+192.168.0.58     api.nextgenerp.stg
+192.168.0.58     app.nextgenerp.stg
+192.168.0.58     sh.tracker.sqa
+192.168.0.87 bilal.relisystems.com
+192.168.0.87 zeeapi.relisystems.com
+192.168.0.87 zee.relisystems.com
+192.168.0.87 bilalapi.relisystems.com
+192.168.0.87 veda.relisystems.com.pk
+192.168.0.87 vedaapi.relisystems.com.pk
+192.168.0.74 qa.relisystems.com
+192.168.0.74 qaapi.relisystems.com
+192.168.0.87  sh.bugtracker.com
+#205.199.44.156 registeridm.com
+#205.199.44.16 registeridm.com
+#127.0.0.1 www.internetdownloadmanager.com
+#127.0.0.1 localhost
+#127.0.0.1  laravel.dev 
+127.0.0.1 	myapp.localhost
+#127.0.0.1 	myapi.localhost/apigility/ui#/
+
+#C:\Windows\System32\drivers\etc

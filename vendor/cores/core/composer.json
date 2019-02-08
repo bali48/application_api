@@ -1,0 +1,13 @@
+{
+    "name": "cores/core",
+    "description": "Custom Library",
+    "type": "library",     
+    "autoload": {
+        "psr-0": {
+            "CoreLib\\": "src/"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+Internal:
+    HttpCode: 500
+    Type: error
+    Message: Internal server error
+NotCreated:
+    HttpCode: 404
+    Type: info
+    Message: No record(s) created.
+NotSomeCreated:
+    HttpCode: 404
+    Type: info
+    Message: Some record(s) have not been created due to invalid data.
+NotDeleted:
+    HttpCode: 404
+    Type: info
+    Message: Cannot delete, no record found
+NotAdded:
+    HttpCode: 404
+    Type: info
+    Message: Cannot add the record.     
+NotUpdated:
+    HttpCode: 404
+    Type: info
+    Message: Cannot update the record.     
+NewPasswordSame:
+    HttpCode: 404
+    Type: info
+    Message: Your Old and New Passwords are the same. 
+PasswordMissMatch:
+    HttpCode: 404
+    Type: info
+    Message: Old Password miss Matched. 
+DbError:
+    HttpCode: 404
+    Type: info
+    Message: Error in DB
+ExptdQryParmValidation:
+    HttpCode: 404
+    Type: info
+    Message: Expected query params validation config couldn't be found
+FileNotExist:
+    HttpCode: 500
+    Type: error
+    Message: File does not exist! Please attach file again.
